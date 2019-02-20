@@ -5,7 +5,7 @@
 
 export const environment = {
   production: false,
-  KEYCLOAK_URL: 'http://localhost:8080/auth',
+  KEYCLOAK_URL: 'http://keycloak.waret.net/auth',
   KEYCLOAK_REALM: 'Demo-Realm',
   KEYCLOAK_CLIENTID: 'tutorial-frontend',
   BACKEND_URL: 'http://localhost:8000/api'

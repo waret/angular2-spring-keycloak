@@ -10,7 +10,7 @@ appControllers.controller('MainController', ['$rootScope', '$scope', '$http', 'a
         $scope.getContracts = function() {
             //http://localhost:8000/api/contracts
             //http://localhost:8080/v1/projects
-        	$http.get("http://localhost:8080/v1/projects").success(function(data) {
+        	$http.get("http://localhost:8000/api/contracts").success(function(data) {
             	$scope.contracts = data;
             });
         }
